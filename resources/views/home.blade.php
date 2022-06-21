@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <h1 class="alert alert-danger text-center p-0 mx-0">Student CRUD</h1>
         <div class="row">
-            <div class="col-4 shadow">
+            <div class="col-md-4 shadow p-3">
                 @if (session('status'))
                     <div class="alert alert-success">
                         {{ session('status') }}
